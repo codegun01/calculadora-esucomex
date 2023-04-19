@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19-04-2023, 11:21:12
+    Author     : gonza
+*/
+.titulo{
+    color: red;
+    font-size: 100px!important; 
+}
+
+.titulo2{
+    color: dodgerblue;
+    font-size: 100px!important;
+}
+
+.resultado{
+    font-size: 100px!important; 
+}
+
+.card1{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer{
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo__footer{
+    color: white;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+              rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div class="container-xxl shadow p-3 mb-5 bg-body rounded">
+
+            <h1 class="text-center titulo">Esucomex Calculator</h1>
+
+            <div class="card card1" style="width: 25rem;">
+
+                <div class="card-header text-center  fs-3">Ingrese datos</div>
+                <div class="card-body">
+
+                    <form method="post" action="codigo.jsp" onsubmit="return validarForma(this)" >
+                        Primer numero:
+                        <input type="text"  name="nro1" class="form-control mb-4"/>
+
+                        Segundo numero:
+                        <input type="text"  name="nro2" class="form-control mb-4"/><br/><!-- comment -->
+                        <div id="text"></div>
+                        <br/>
+                        <br/>
+
+                        <input type="submit" value="SUMAR" name="sumar" class="form-control btn-primary mb-3" />
+                        <input type="submit" value="RESTAR" name="restar" class="form-control btn-success mb-3"/>
+                        <input type="submit" value="DIVIDIR" name="dividir" class="form-control btn-secondary mb-3"/>
+                        <input type="submit" value="MULTIPLICAR" name="multiplicar" class="form-control btn-danger mb-3"/>
+                        <br/><!-- comment -->
+                        <br/>
+
+                    </form>
+                </div>
+            </div>
+            <div class="bg-dark footer">
+                <h2 class="titulo__footer">Desarrollado por: Cristian Riveros</h2>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="js/funciones.js"></script>
+    </body>
+</html>
